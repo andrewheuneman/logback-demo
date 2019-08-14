@@ -1,4 +1,4 @@
-#Logging Demo Application 
+Logging Demo Application 
 
 How to implement logback for use spring boot applications to report to Datadog for log consumption.  
 
