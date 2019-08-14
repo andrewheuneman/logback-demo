@@ -6,3 +6,12 @@ The goal of this project is to show how to implement logging with trace Id Injec
  for use in Datadog with spring boot 2.1.7 
 
 Datadog docs for log collection https://docs.datadoghq.com/logs/log_collection/java/?tab=log4j
+
+To generate an exception run the application and use curl to call the api.
+
+To make an error happen:
+curl localhost:8080/example/fail
+
+To make a successfull call:
+curl localhost:8080/example/success
+
